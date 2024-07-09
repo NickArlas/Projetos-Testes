@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    width: 97vw;
+    background-color: white;
+    
+}
+
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #017143;
+    clip-path: circle(880px at right 1100px);
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.cabeçalho-img{
+    position: relative;
+    left: 160px;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.cabeçalho-menu-itens{
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+    
+
+}
+
+
+.cabeçalho-menu-itens:hover{
+    color: #017143;
+    border-bottom: 2px solid #017143;
+    transform: translate(-15px,0px);
+    
+    transition: transform 1s ;
+    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.conteudo-texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+    left: 65px;
+    
+    width: 700px;
+    height: 300px;
+    
+}
+.texto-titulo{
+    font-size: 4em;
+    font-weight: bold;
+    color: #333;
+    
+    width: 100%;
+}
+
+.verde{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.paragrafo{
+    font-weight: 400;
+    font-size: 14px;
+    color:#333;
+    height: 50px;
+    
+}
+
+.botao{
+    border: none;
+    color: white;
+    background-color: #017143;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 150px;
+    
+    border-radius: 40px;
+}
+
+.botao:hover{
+    background-color: #333;
+    cursor: pointer;
+    transform: translate(25px);
+    transition: all .3s ease;
+}
+
+
+
+.principal-img{
+    position: relative;
+    top: 110px;
+    left: 250px;
+    width: 400px;
+}
+
+
+.rede-sociais{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    list-style: none;
+    top: 60px;
+    left: 200px;
+}
+
+.rede-sociais-itens{
+        padding:8px;
+}
+.rede-sociais-itens:hover{
+    background-color: #00ff95;
+    border-radius: 2000px;
+    cursor: pointer;
+    transform: translate(-15px,0px);
+    transition: all .5s;
+}
+
+.rodape-menu{
+    display: flex;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+    gap: 40px;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+.rodape-itens{
+    padding: 8px;
+}
+
+.rodape-itens:hover{
+    
+    background-color: #00ff95;
+    border-radius: 2000px;
+    transform: translate(0px,-15px);
+    transition: all .5s;
+}
+
