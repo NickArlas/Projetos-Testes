@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #414242;
+
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 250px;
+    height: 500px;
+    
+    border-radius: 13px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+    text-align: center;
+    overflow: hidden;
+
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s ;
+    transition-timing-function: ease;
+}
+
+section.login > div.imagem{
+    display: block;
+    background-image: url(../imagem/imagem.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 200px;
+
+
+}
+
+section.login > div.form {
+    padding: 10px;
+
+}
+
+section.login > div.form > h1{
+    padding: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+section.login > div.form > p{
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-bottom: 7px;
+}
+
+
+div.campo{
+    
+    background-color: #767A7B;
+    margin-bottom: 6px;
+    display: block;
+    height: 40px;
+
+
+    
+    border-radius: 5px;
+}
+
+div.campo > label > span {
+    font-size: 1.5em;
+    width: 40px;
+    padding-top: 7px;
+    
+
+    
+    
+
+    
+    
+
+}
+
+div.campo > input {
+    font-size: 1em;
+    border: 1px solid #767A7B;
+    width: calc(100% - 45px);
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+
+    transform: translateY(-6px);
+
+}
+
+form > input[type=submit]{
+    display: block;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form > input[type=submit]:hover{
+    background-color: #474b4c;
+    color: black;
+    cursor: pointer;
+}
+
