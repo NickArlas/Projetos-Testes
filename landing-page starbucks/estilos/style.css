@@ -24,7 +24,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: #017143;
-    clip-path: circle(880px at right 1100px);
+    clip-path: circle(800px at right 1100px);
 }
 
 .cabeçalho{
@@ -83,7 +83,7 @@ body{
     left: 65px;
     
     width: 700px;
-    height: 300px;
+    height: 400px;
     
 }
 .texto-titulo{
@@ -131,8 +131,8 @@ body{
 
 .principal-img{
     position: relative;
-    top: 110px;
-    left: 250px;
+    top: 0px;
+    left: 200px;
     width: 400px;
 }
 
@@ -146,7 +146,7 @@ body{
     padding: 10px;
     list-style: none;
     top: 60px;
-    left: 200px;
+    left: 150px;
 }
 
 .rede-sociais-itens{
@@ -163,7 +163,7 @@ body{
 .rodape-menu{
     display: flex;
     position: absolute;
-    top: 84%;
+    top: 80%;
     left: 40%;
     gap: 40px;
     flex-direction: row;
