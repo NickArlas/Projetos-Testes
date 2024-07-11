@@ -1,1 +1,120 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 950px) and (max-width: 1440px) {
+
+    body{
+        width: 100vw;
+        overflow: hidden;
+    }
+    .titles{
+        position: relative;
+        left: 30px;
+    }
+
+    ul{
+        position: relative;
+        right: 50px;
+    }
+
+    ul li{
+        
+        font-size: 1em ;
+    }
+
+    aside{
+        position: relative;
+        left: 30px;
+    }
+    
+    main aside h2{
+        font-size: 40px;
+        text-align: center;
+        
+    }
+
+    main aside p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    main aside form input{
+        font-size: 10px;
+        padding: 13px;
+    }
+
+    main article img{
+        width: 42vw;
+        
+        
+    }
+    
+}
+
+@media screen and (max-width:950px) {
+
+    body{
+        width: 90vw;
+        overflow: hidden;
+    }
+
+    .titles{
+        position: relative;
+        left: 30px;
+        font-size: 10px;
+    }
+    .botao-menu{
+        display: list-item;
+        list-style: none;
+        font-size: 30px;
+    }
+
+    a{
+        display: none;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+
+    }
+
+    main aside{
+        position: relative;
+        left: 5px;
+        margin: 0 auto;
+        width: 60vw;
+    }
+
+    
+
+    main aside h2{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+    main aside p{
+        text-align: center;
+        font-size: 11px;
+        width: 60vw;
+    }
+
+    main aside form input{
+        font-size: 10px;
+        
+    }
+
+
+    main article img{
+        padding-top: 100px;
+        width: 60vw;
+        margin: 0 auto;
+        
+        
+    }
+    
+}
