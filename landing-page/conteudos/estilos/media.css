@@ -93,12 +93,20 @@
     
 
     main aside h2{
-        padding: 10px;
+        
+       
         font-size: 30px;
         text-align: center;
         
 
         
+    }
+
+    .txtroxo{
+        position: relative;
+
+        right: 40px;
+        width: 125%;
     }
 
     main aside p{
