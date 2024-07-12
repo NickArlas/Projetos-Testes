@@ -65,22 +65,69 @@ main section{
 
 
 }
-.login-bars{
-    width: 10%;
-}
+
 
 .texto-principal{
     position: relative;
+    
+    top: -190px;
+    left: 152px;
     width: 35%;
     
 }
 
+.texto-principal h1{
+color: rgba(49, 48, 48, 0.603);
+}
+
+.texto-principal h1, h2{
+    font-size: 68px;
+}
+.texto-principal h3{
+    font-size: 30px;
+    color: white;
+}
+.texto-principal p{
+    font-size: 14px;
+    line-height: 30px;
+    
+}
+
+.botao{
+    position: relative;
+    top: 30px;
+    right: 420px;
+
+    width:200px;
+    color: white;
+    background-color: rgba(49, 48, 48, 0.603);
+    padding: 10px;
+    
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+    transition: background-color .2s, transform .3s;
+}
+.botao:hover{
+    background-color: black;
+    border: 2px solid white;
+    transform: translate(25px,0);
+    cursor: pointer;
+}
+
+
 
 main section img{
     position: relative;
-    top: -70px;
-    right: -100px;
-    width: 900px;
-    height: 1159px;
+    top: -100px;
+    right: -255px;
+    
+    width: 56%;
 }
 
+
+.login-bars{
+    height: 140vh;
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.788);
+}
