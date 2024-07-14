@@ -27,16 +27,24 @@ header{
 
 header img{
     position: relative;
-    width: 150px;
+    width: 120px;
     left: -300px;
+    transition: all .3s ease;
+}
+
+header img:hover{
+    cursor: pointer;
+    transform: translate(10px,0px);
+    
+    
 }
 
 header nav{
     position: relative;
-    right: 400px;
+    right: 350px;
     display: flex;
     align-items: center;
-    gap: 48px;
+    gap: 88px;
 }
 
 header nav a{
@@ -45,12 +53,12 @@ header nav a{
     color: rgb(255, 255, 255);
     font-weight: bold;
     padding: 10px;
+    border-bottom: 1px solid white;
+    
 }
 
 header nav a:hover{
     
-    background-color: black;
-    border-radius: 20px;
     transform: translate(-15px, 0px);
     box-shadow: 2px 15px 10px -12px rgba(0, 0, 0, 0.205);;
     transition: transform .3s ease;
@@ -68,6 +76,9 @@ main section{
 
 
 .texto-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     
     top: -190px;
@@ -76,20 +87,25 @@ main section{
     
 }
 
+
+
 .texto-principal h1{
-color: rgba(49, 48, 48, 0.603);
+    font-size: 108px;
+    color: white;
 }
 
-.texto-principal h1, h2{
-    font-size: 68px;
-}
+    .texto-principal h2{
+        
+        font-size: 40px;
+    }
+
 .texto-principal h3{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 .texto-principal p{
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 13px;
+    line-height: 25px;
     
 }
 
@@ -122,12 +138,31 @@ main section img{
     top: -100px;
     right: -255px;
     
-    width: 56%;
+    width: 50%;
 }
 
 
 .login-bars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 80px;
     height: 140vh;
-    width: 80px;
-    background-color: rgba(0, 0, 0, 0.788);
+    width: 140px;
+    background-color: rgba(0, 0, 0, 0.418);
 }
+
+.login-bars span{
+    position: relative;
+    top: 300px;
+    font-size: 35px;
+    color:white;
+    transition: all .3s ease;
+}
+
+.login-bars span:hover{
+    cursor: pointer;
+    color: black;
+}
+
